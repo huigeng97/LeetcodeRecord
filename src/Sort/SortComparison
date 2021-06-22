@@ -2,6 +2,22 @@
 
  This problem is to sort the array with the different methods
  inplace doesn't equal the space complexity of O(1); the space includes the recursion call stack; whereas inplace not;
- merge sort : inplace or non-inplace, depending on how you achieve the merge part
- quick method : inplace, not stable,
- non-inplace method :
+
+ // bubble / insertion/ selection can also do O(1) space but slow; (inplace)
+
+ // Average NlogN time complexity
+ merge sort : inplace or non-inplace, depending on how to merge;
+ quick sort : inplace, not stable,
+ heap sort : inplace
+
+ non-inplace method (Non-comparison based sorting):
+ Radix sort
+ Count Sort
+ Bucket Sort
+
+ // Online algo : only insertion algo is the online one;
+
+// unstable algo: heap sort / quick sort / selection sort;
+
+
+

@@ -1,0 +1,2 @@
+// Initialization of a set;
+Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));

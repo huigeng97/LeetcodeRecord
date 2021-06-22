@@ -6,7 +6,7 @@ This Weekend I will review all the parts I have finished so far; 06/17
 UnionFind;                        547
 Sliding Window;                   295, (76?);
 Two Pointers;                     407;
-Sort; (mergeSort   , QuickSort 973, HeapSort?, 912 general sort problem);
+Sort; (mergeSort   , QuickSort 973, HeapSort?, general sort problem);
 BinarySearch; 4
 
 Please study the Bellman equation before doing the DP part!
@@ -22,6 +22,7 @@ LinkedList;
 BinaryTree;                       199; 863; 426;
 Trie;
 HashMap;
+sort:                             912
 
 
 
