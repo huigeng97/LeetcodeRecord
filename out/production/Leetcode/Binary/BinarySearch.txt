@@ -1,0 +1,44 @@
+1. Overflow:
+mid = (l+r)//2  (X)
+left = 1, right = Integer.MAX_VALUE cause overflow:
+
+Correct: mid = l + (r-l)//2
+
+2. consistent interval
+// recommend : end inclusive;  (95% case)
+
+exception:
+def binary_search(array, target):
+    start, end = 0, len(array) - 1
+    while start + 1 < end:
+        mid = (start + end) / 2
+        if array[mid] == target:
+            start = mid
+        elif array[mid] < target:
+            start = mid
+        else:
+            end = mid
+
+    // the solution is either start or end;
+    if array[start] == target:
+        return start
+    if array[end] == target:
+        return end
+    return -1
+
+3. Category: Return L or R
+3.1 Target 3.2 Without target 3.3 (3.2) and Cross the boundary;
+
+3.1 Target  return mid;
+
+3.2 1)Without the target: the L return the right first around the boundary (not satisfy the condition),
+                            R return the left first one around the boundary (or satisfy the condition);
+    2)Sometimes even if we use the closed interval, we can only have two case to run;
+
+3.3 If we need to compare with the nums[mid] and nums[mid+1];
+    use the SECOND template that while (l + 1 < r) // open interval and two case;
+    then the solution is either l or r;
+
+
+
+

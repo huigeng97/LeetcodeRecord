@@ -1,0 +1,7 @@
+
+
+ This problem is to sort the array with the different methods
+ inplace doesn't equal the space complexity of O(1); the space includes the recursion call stack; whereas inplace not;
+ merge sort : inplace or non-inplace, depending on how you achieve the merge part
+ quick method : inplace, not stable,
+ non-inplace method :

@@ -1,0 +1,7 @@
+The Traversal includes :
+
+BFS (level order) / DFS (Postorder, Preorder, Inorder);
+BFS we could use Recursive / Iterative (queue);
+DFS we could use Recursive / Iterative (stack) / Morris
+
+Check 98 to see some example

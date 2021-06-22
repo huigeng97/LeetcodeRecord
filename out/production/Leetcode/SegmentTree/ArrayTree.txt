@@ -1,0 +1,5 @@
+// Use the array to store the tree is a very interesting application;
+// We need to get the level of the tree // or the size of the leaf;
+// Normally we will shift 1 to the right; so that (index / 2 ) is the parent;
+index % 2 == 1 is the right child; index % 2 == 0 is the left child; the root's index is 1;
+left child is index * 2; right child is index * 2 + 1;
