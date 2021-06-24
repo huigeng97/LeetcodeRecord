@@ -1,4 +1,0 @@
-{"type":"list","list":[1,2,3,4]}
-{"type":"list","list":[1,2,3,4]}
-{"type":"list","list":[2,3,4,5]}
-{"type":"list","list":[3,4,5,6]}

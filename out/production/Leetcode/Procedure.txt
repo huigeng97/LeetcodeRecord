@@ -1,9 +1,0 @@
-// 面试流程
-
-1. Clarification
-2. Introduce the workflow
-3. Coding the comment
-4. Coding with the explanation
-5. Test with the main function / case;
-6. Analysis the complexity
-6. Follow up and improve the complexity;

@@ -1,2 +1,11 @@
 // Initialization of a set;
 Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));
+
+
+// Think about the corner case before the test;
+// what if stack.pop() == null;
+// the good way is to always think about what the error message that one method / calling could pop up;
+// if there could be one, just eliminate it!!!
+
+// 题目思路对了，但是做不出来，通常是memory用少了（考虑用更多的变量去记录刚记录的东西）；
+// 题目思路对了，但是写的很繁琐很混乱，通常是memory用多了，搞得复杂了

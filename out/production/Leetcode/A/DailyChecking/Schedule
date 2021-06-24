@@ -6,10 +6,34 @@ This Weekend I will review all the parts I have finished so far; 06/17
 UnionFind;                        547
 Sliding Window;                   295, (76?);
 Two Pointers;                     407;
-Sort; (mergeSort, QuickSort, HeapSort?, general sort problem);
-BinarySearch;
+Sort; (mergeSort   , QuickSort 973, HeapSort?, general sort problem);
+BinarySearch; 4
 
 Please study the Bellman equation before doing the DP part!
+
+When we use the recursion, think about which part is recursive, if we find the same function(call) is calculated repeatedly,
+it usually means we didn't catch the most important recursion part;
+
+
+This weekend I will review all the parts I have finished so far 06/24
+BackTrack                         10, 1239,
+Stack;                            394, 1249
+LinkedList;
+BinaryTree;                       199; 863; 426;
+Trie;
+Monotone Stack:
+HashMap;
+sort:                             912
+
+
+
+
+
+This weekend I will review all the parts I have finished so far 07/04
+BackTrack                          37, 44,
+
+
+
 
 
 

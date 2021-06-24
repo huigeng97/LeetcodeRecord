@@ -1,0 +1,19 @@
+Deque<String> stack = new ArrayDeque<String>()
+Deque is more likely an original stack; where we could traverse from the top to the bottom;
+
+Stack<String> stack = new Stack<String>();
+Stack extends Vector, therefore it traverses like an Array;
+
+
+It is always to achieve the fastest runtime by writing the stack by yourself;
+LinkedList;
+
+
+
+// Monotone Stack;
+ Question, how to choose the increasing stock or the decreasing stack????
+ if we want to find the prev large, we use the decreasing stack;
+ if we want to find the next large, we use the decreasing stack;
+ if we want to find the prev small, we use the increasing stack;
+ if we want to find the next small, we use the increasing stack;
+ The only difference is to choose the place to store the result;

@@ -17,11 +17,11 @@ it usually means we didn't catch the most important recursion part;
 
 This weekend I will review all the parts I have finished so far 06/24
 BackTrack                         10, 1239,
-Stack;
+Stack;                            394, 1249 341
 LinkedList;
 BinaryTree;                       199; 863; 426;
 Trie;
-HashMap;
+Monotone Stack:
 sort:                             912
 
 

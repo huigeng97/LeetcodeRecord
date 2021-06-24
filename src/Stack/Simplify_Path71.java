@@ -20,6 +20,7 @@ public class Simplify_Path71 {
     }
 
 
+
     // A slight revison is to use th StringBuilder to avoid the duplicate copy;
     public String simplifyPath2(String path) {
 
