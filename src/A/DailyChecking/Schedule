@@ -2,7 +2,7 @@ This is the Schedule for some questions deserves to work on;
 
 The union find questions deserve to write everyday
 
-This Weekend I will review all the parts I have finished so far; 06/17
+This Weekend I will review all the parts I have finished so far; 06/20
 UnionFind;                        547
 Sliding Window;                   295, (76?);
 Two Pointers;                     407;
@@ -15,13 +15,13 @@ When we use the recursion, think about which part is recursive, if we find the s
 it usually means we didn't catch the most important recursion part;
 
 
-This weekend I will review all the parts I have finished so far 06/24
+This weekend I will review all the parts I have finished so far 06/27
 BackTrack                         10, 1239,
 Stack;                            394, 1249 341
 LinkedList;
-BinaryTree;                       199; 863; 426;
-Trie;
-Monotone Stack:
+BinaryTree;                       199;
+Trie;                             588,
+
 sort:                             912
 
 
@@ -29,13 +29,18 @@ sort:                             912
 
 
 This weekend I will review all the parts I have finished so far 07/04
-BackTrack                          37, 44,
+BackTrack                          10; 37, 44,
+LinkedList                          138, 426, 206, 146, 23
+Stack                              1249 341
+BT                                 863; 426;
+Monotone Stack:                    84
+array
+BFS
+DFS
+String
+Queue
 
+This weekend I will review all the parts I have finished so far 07/10
+Trie                               588
+sort:                              912
 
-
-
-
-
-
-Very Good Question:
-AccountsMerge721

@@ -9,3 +9,31 @@ Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));
 
 // 题目思路对了，但是做不出来，通常是memory用少了（考虑用更多的变量去记录刚记录的东西）；
 // 题目思路对了，但是写的很繁琐很混乱，通常是memory用多了，搞得复杂了
+
+
+//Arrays.sort(words, (a,b) -> a.length() == b.length() ?
+                              "a.compareTo(b)" :  a.length() - b.length());
+
+//  pId < pLen && (s.charAt(sId) == p.charAt(pId) || p.charAt(pId) == '?')
+// 先 and 后 or; 从左到右；
+// 有 && 和 || 一起判断时，一定要注意顺序
+
+
+// 关于传值：
+// 函数不影响指针地址，但是影响数据结构（内容）；对于prime type 函数不影响value（内容）;
+// 例如；
+head = 3; head.next = 2;
+helper(Node head) {
+   head = head.next;
+}
+head仍然指向 node 3;
+
+helper2(Node head) {
+   head.next = null;
+}
+head仍然指向 node 3;但是head.next变成了null;
+
+helper3(Node head) {
+   head.val = 2;
+}
+head仍然指向 node 3;但是head.val变成了2;

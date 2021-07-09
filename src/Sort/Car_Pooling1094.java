@@ -70,7 +70,7 @@ public class Car_Pooling1094 {
         int count = 0;
         for (int num : record) {
             count += num;
-            if (count > capacity) return  false;
+            if (count > capacity) {return  false;};
         }
         return true;
     }

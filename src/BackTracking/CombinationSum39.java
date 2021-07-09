@@ -12,7 +12,7 @@ public class CombinationSum39 {
     }
 
     private void backtrack(int[] candidates, int start, int target, ArrayList<Integer> temp) {
-        if (target<0 || start == candidates.length) return;
+        if (target < 0 || start == candidates.length) return;
         if (target == 0) {
             res.add(new ArrayList<>(temp));
             return;
@@ -20,7 +20,7 @@ public class CombinationSum39 {
         backtrack(candidates,start+1,target,temp);
         temp.add(candidates[start]);
         backtrack(candidates,start,target-candidates[start],temp);
-        temp.remove(temp.size()-1);
+        temp.remove(temp.size() - 1);
     }
 
     public static void main(String[] args) {

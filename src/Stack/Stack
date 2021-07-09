@@ -2,7 +2,7 @@ Deque<String> stack = new ArrayDeque<String>()
 Deque is more likely an original stack; where we could traverse from the top to the bottom;
 
 Stack<String> stack = new Stack<String>();
-Stack extends Vector, therefore it traverses like an Array;
+Stack extends Vector, therefore it traverses like an array;
 
 
 It is always to achieve the fastest runtime by writing the stack by yourself;
