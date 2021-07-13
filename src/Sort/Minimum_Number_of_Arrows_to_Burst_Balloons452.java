@@ -3,7 +3,9 @@ package Sort;
 import java.util.Arrays;
 
 public class Minimum_Number_of_Arrows_to_Burst_Balloons452 {
-    public static int findMinArrowShots(int[][] points) {
+
+
+    public int findMinArrowShots(int[][] points) {
 
         // (a,b) -> a[0] - b[0]  can't handle the overflow; only the non-negative number can use this one!
 
@@ -24,10 +26,14 @@ public class Minimum_Number_of_Arrows_to_Burst_Balloons452 {
                 res++;
             }
         }
+
+
         return res;
+
     }
 
     public static void main(String[] args) {
-        System.out.println(findMinArrowShots(new int[][]{{-2147483646,-2147483645}, {2147483646,2147483647}}));
+
     }
+
 }

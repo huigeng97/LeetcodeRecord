@@ -75,4 +75,6 @@ public class Largest_Rectangle_in_Histogram84 {
         }
         return max;
     }
+
+    // another way to avoid using the stack but faster is to use two array to record the Left
 }

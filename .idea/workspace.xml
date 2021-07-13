@@ -7,106 +7,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784874a1-b30e-42db-98b9-e53ae6108db7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyChecking/BeforeTheCoding.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyChecking/dp-greedy-bt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/SudokuSolver44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/UniqueBinarySearchTreesII95.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BackTracking/WildcardMatching44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree/AllNodesDistanceKinBinaryTree863.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/LexicographicalNumbers386.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BestTimetoBuyandSellStock121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BestTimetoBuyandSellStockII122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BestTimetoBuyandSellStockIII123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BestTimetoBuyandSellStockIV188.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/BinaryTreeMaximumPathSum124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/ClimbingStairs70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/CoinChange322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/Concatenated_Words472.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/CountDifferentPalindromicSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/DecodeWays91.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/DeleteAndRun740.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/EditDistance72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/IntegerBreak343.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/InterleavingString97.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/JumpGameII45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LongestConsecutiveSequence128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/LongestPalindromicSubsequence516.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MaximalSquare221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MaximumProductSubarray152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MaximumSubarray53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MinimumOneBitOperationstoMakeIntegersZero1611.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/UniqueBinarySearchTrees96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/UniquePaths62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/CoinChangeII518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/DifferentWaystoAddParentheses241.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/HouseRobber198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/HouseRobberIII337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/JumpGame55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/LongestPalindromicSubstring5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/LongestValidParentheses32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/MinimumPathSum64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/PaintHouse256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/UniquePathsII63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/findTheCelebrity277.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gready/IncreasingTripletSubsequence334.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hash/MinimumDeletionsMakeCharacterFrequenciesUnique1647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/CopyListwithRandomPointet138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/DesignTwitter355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Design_HashMap706.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LRU_Cache146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Merge_Two_Sorted_Lists21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergekSortedLists23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Palindrome_Linked_List234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Reverse_Nodes_in_k_Group25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Test146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Math/HappyNumber202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/FlattenNestedListIterator341.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NestedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Test341.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Test394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/Test84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/RomanToInteger13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Concatenated_Words427.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Design_InMemory_File_System588.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Design_Search_Autocomplete_System642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/ImplementTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Longest_Word_in_Dictionary720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/Short_Encoding_of_Words820.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/WordAddandSearchDataStructure211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/WordBreakII140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/DiagonalTraverse498.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ProductOfArrayExceptSelf238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/RotateImage48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SetMatrixZeros73.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SpiralMatrix54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SpiralMatrixII59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Test341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/test721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/LongestStringChain1048.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/MaximumProfitinJobScheduling1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/MinimumNumberTapsttoWateraGarden1326.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/MinimumWindowSubsequence727.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/SuperEggDrop887.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/Triangle120.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Leetcode/A/DailyChecking/Schedule" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/A/DailyChecking/Schedule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Array/Product_of_Array_Except_Self238.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Hash/subarray_sum_equals_k560.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Hash/subarray_sum_equals_k560.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/BackTracking/Letter_Combinations_of_a_Phone_Number17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/BackTracking/Palindrome_Partitioning131.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/TwoPointer/Trapping_Rain_Water42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Connecting_Cities_With_Minimum_Cost1135.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Evaluate_Division399$UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Evaluate_Division399.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Graph_Valid_Tree261.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Longest_Consecutive_Sequence128$UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Longest_Consecutive_Sequence128.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Number_of_Connected_Components_in_an_Undirected_Graph323$UnionFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Number_of_Connected_Components_in_an_Undirected_Graph323.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/UnionFind/Path_With_Minimum_Effort1631.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/Schedule" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/Schedule" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/Trick" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/Trick" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/Product_of_Array_Except_Self238.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking/Maximum_Length_Concatenated_String_with_Unique_Characters1239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackTracking/Maximum_Length_Concatenated_String_with_Unique_Characters1239.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking/Regular_Expression_Matching10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackTracking/Regular_Expression_Matching10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking/Sudoku_Solver44.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackTracking/Wildcard_Matching44.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/All_Nodes_Distance_K_in_Binary_Tree863.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Convert_BST_to_Sorted_Doubly_Linked_List426.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Convert_BST_to_Sorted_Doubly_Linked_List426.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Convert_Binary_Search_Tree_to_Sorted_Doubly_LinkedList426.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hash/subarray_sum_equals_k560.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hash/subarray_sum_equals_k560.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Add_Two_Numbers2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Add_Two_Numbers2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/Car_Pooling1094.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Car_Pooling1094.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Minimum_Remove_Make_Valid_Parentheses1249.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Minimum_Remove_Make_Valid_Parentheses1249.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack/Stack" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Stack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/Word_Break139.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/CombinationSum39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Design_Add_and_Search_Word_Data_Structure211.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/DesignAddandSearchWordDataStructure211.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/GenerateParenthesis22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/GenerateParenthesis22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Letter_Combinations_of_a_Phone_Number17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/LetterCombinationsofaPhoneNumber17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Maximum_Length_Concatenated_String_with_Unique_Characters1239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/MaximumLengthConcatenatedStringwithUniqueCharacters1239.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Palindrome_Partitioning131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/PalindromePartitioning131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Permutations46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Permutations46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Regular_Expression_Matching10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Regular_Expression_Matching10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Restore_IP_Addresses93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/RestoreIPAddresses93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Subset78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Subset78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/SubsetII90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/SubsetII90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/SudokuSolver44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/SudokuSolver44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/Test10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Test10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/UniqueBinarySearchTreesII95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/UniqueBinarySearchTreesII95.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/WildcardMatching44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/WildcardMatching44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/WordLadderII126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/WordLadderII126.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/WordSearch79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/WordSearch79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackTracking/WordSearchII212.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/WordSearchII212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/BinarySearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/BinarySearch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Find_First_and_Last_Position34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Find_First_and_Last_Position34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Find_Minimum_in_Rotated_Sorted_Array153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Find_Minimum_in_Rotated_Sorted_Array153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Find_Peak_Element162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Find_Peak_Element162.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Find_the_Duplicate_Number287.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Find_the_Duplicate_Number287.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Furthest_Building_You_Can_Reach1642.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Furthest_Building_You_Can_Reach1642.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Guess_Number_Higher_or_Lower374.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Guess_Number_Higher_or_Lower374.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Median_of_Two_Sorted_Arrays4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Median_of_Two_Sorted_Arrays4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Search_a_2D_Matrix74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Search_a_2D_Matrix74.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Search_in_Rotated_Sorted_Array33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Search_in_Rotated_Sorted_Array33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Binary/Time_Based_Key_Value_Store981.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/Time_Based_Key_Value_Store981.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/CoinChangeII518.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/CoinChangeII518.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/DifferentWaystoAddParentheses241.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/DifferentWaystoAddParentheses241.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/HouseRobber198.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/HouseRobber198.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/HouseRobberIII337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/HouseRobberIII337.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/LongestPalindromicSubstring5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/LongestPalindromicSubstring5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/LongestValidParentheses32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/LongestValidParentheses32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DP2/PaintHouse256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP2/PaintHouse256.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/findTheCelebrity277.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/findTheCelebrity277.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gready/IncreasingTripletSubsequence334.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gready/IncreasingTripletSubsequence334.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hash/MinimumDeletionsMakeCharacterFrequenciesUnique1647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/MinimumDeletionsMakeCharacterFrequenciesUnique1647.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hash/subarray_sum_equals_k560.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash/subarray_sum_equals_k560.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Math/HappyNumber202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/HappyNumber202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/ArrayTree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/ArrayTree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Count_of_Range_Sum327.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Count_of_Range_Sum327.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Count_of_Smaller_Numbers_After_Self315.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Count_of_Smaller_Numbers_After_Self315.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Create_Sorted_Array_through_Instructions1649.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Create_Sorted_Array_through_Instructions1649.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Range_Sum_Query_2D_Mutable308.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Range_Sum_Query_2D_Mutable308.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Range_Sum_Query_Mutable307.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Range_Sum_Query_Mutable307.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree/Reverse_Pairs493.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/segmentTree/Reverse_Pairs493.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Find_Median_from_Data_Stream295.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Find_Median_from_Data_Stream295.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/LongestSubarraywithtwoCharacters159.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/LongestSubarraywithtwoCharacters159.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Longest_Repeating_Character_Replacement424.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Longest_Repeating_Character_Replacement424.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Longest_Substring_Without_Repeating_Characters3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Longest_Substring_Without_Repeating_Characters3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with1Characters395.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Longest_Substring_with1Characters395.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with_At_Most_K_Distinct_Characters340.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Longest_Substring_with_At_Most_K_Distinct_Characters340.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Minimum_Window_Substring76.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Minimum_Window_Substring76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Permutation_in_String567_438.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Permutation_in_String567_438.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Sliding_Window_Maximum239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Sliding_Window_Maximum239.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Sliding_Window_Median480.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Sliding_Window_Median480.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/Test76.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/Test76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWin/subarray_product_less_than_k713.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWin/subarray_product_less_than_k713.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/SortArray912.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/SortArray912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Largest_Rectangle_in_Histogram84.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Largest_Rectangle_in_Histogram84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie/Design_InMemory_File_System588.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/Design_InMemory_File_System588.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Container_With_Most_Water11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/Container_With_Most_Water11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/FourSum18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/FourSum18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/IntersectionOftwoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/IntersectionOftwoArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Merge_Sorted_Array88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/Merge_Sorted_Array88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/ThreeSum15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/ThreeSum15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Trapping_Rain_Water42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/TrappingRainWater42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Trapping_Rain_Water_II407.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/Trapping_Rain_Water_II407.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Two_Sum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/Two_Sum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/Two_SumII167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/Two_SumII167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/threeSumClosest16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/threeSumClosest16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Connecting_Cities_With_Minimum_Cost1135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/ConnectingCitiesWithMinimumCost1135.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Evaluate_Division399.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/EvaluateDivision399.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Graph_Valid_Tree261.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/GraphValidTree261.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Longest_Consecutive_Sequence128.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/LongestConsecutiveSequence128.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Number_of_Connected_Components_in_an_Undirected_Graph323.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/NumberofConnectedComponentsinanUndirectedGraph323.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind/Path_With_Minimum_Effort1631.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/PathWithMinimumEffort1631.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +177,7 @@
       <recent name="C:\Users\Geng Hui\Desktop\Leetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterleavingString97">
+  <component name="RunManager" selected="Application.Minimum_Number_of_Arrows_to_Burst_Balloons452">
     <configuration name="BestTimetoBuyandSellStockIV188" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.BestTimetoBuyandSellStockIV188" />
       <module name="Leetcode" />
@@ -199,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Minimum_Remove_Make_Valid_Parentheses1249" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Minimum_Remove_Make_Valid_Parentheses1249" />
+    <configuration name="LongestPalindromicSubstring5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP2.LongestPalindromicSubstring5" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="DP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.ReverseLinkedList206" />
+    <configuration name="MinimumNumberTapsttoWateraGarden1326" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP2.MinimumNumberTapsttoWateraGarden1326" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="DP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RotateImage48" />
+    <configuration name="Minimum_Number_of_Arrows_to_Burst_Balloons452" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.Minimum_Number_of_Arrows_to_Burst_Balloons452" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Minimum_Number_of_Arrows_to_Burst_Balloons452" />
+        <item itemvalue="Application.MinimumNumberTapsttoWateraGarden1326" />
+        <item itemvalue="Application.LongestPalindromicSubstring5" />
         <item itemvalue="Application.InterleavingString97" />
         <item itemvalue="Application.BestTimetoBuyandSellStockIV188" />
-        <item itemvalue="Application.Minimum_Remove_Make_Valid_Parentheses1249" />
-        <item itemvalue="Application.ReverseLinkedList206" />
-        <item itemvalue="Application.RotateImage48" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +283,8 @@
       <workItem from="1624634240927" duration="47148000" />
       <workItem from="1624915945415" duration="2561000" />
       <workItem from="1624942472981" duration="357000" />
-      <workItem from="1624942994911" duration="122876000" />
+      <workItem from="1624942994911" duration="124676000" />
+      <workItem from="1625833534481" duration="45863000" />
     </task>
     <task id="LOCAL-00001" summary="SecondTrial">
       <created>1624368268017</created>
@@ -301,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624555936845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dp part">
+      <created>1625803886119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625803886120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +323,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SecondTrial" />
     <MESSAGE value="0624/Stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="0624/Stack" />
+    <MESSAGE value="Dp part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dp part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" width="816" height="730" key="#Intentions" timestamp="1623704450039">
@@ -334,11 +348,11 @@
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625629229907" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624381774570" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322261798" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1625520316463">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1626031754580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624584084828" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1624903472908" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626031754580" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623080719447" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624222351377" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625520316463" />
@@ -356,22 +370,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623370507503" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1624555934317">
+    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1626209118484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555934317" />
+    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626209118484" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625803884322" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624383425754" />
     <state x="-1185" y="-36" key="FileChooserDialogImpl" timestamp="1623377581373">
       <screen x="-1920" y="-297" width="1920" height="1040" />
     </state>
     <state x="-1185" y="-36" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-297.1920.1040@-1920.-297.1920.1040" timestamp="1623377581373" />
     <state x="2655" y="-66" key="FileChooserDialogImpl/0.0.1920.1040/1920.-327.1920.1040@1920.-327.1920.1040" timestamp="1623257989381" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1625699487832">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1626128716491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-257.1920.1160@0.0.1920.1040" timestamp="1626128716491" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-297.1920.1040@-1920.-297.1920.1040" timestamp="1623383928013" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624590528087" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1625699487832" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626046006717" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623032669171" />
     <state width="1860" height="565" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-517.1920.1160@0.0.1920.1040" timestamp="1624654588221" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624239579822" />
@@ -381,13 +398,14 @@
     <state width="1877" height="566" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322264948" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160@0.0.1920.1040" timestamp="1623452472969" />
     <state width="1877" height="641" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1624826558926" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623872259477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1625699487832">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626113043903" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1626128716491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-257.1920.1160@0.0.1920.1040" timestamp="1626128716491" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-297.1920.1040@-1920.-297.1920.1040" timestamp="1623383928013" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624590528087" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1625699487832" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626046006717" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623032669171" />
     <state width="1860" height="565" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-517.1920.1160@0.0.1920.1040" timestamp="1624654588221" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624239579822" />
@@ -397,13 +415,14 @@
     <state width="1877" height="566" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322264947" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160@0.0.1920.1040" timestamp="1623452472969" />
     <state width="1877" height="641" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1624826558925" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623872259477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1625699487832">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626113043903" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1626128716491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-257.1920.1160@0.0.1920.1040" timestamp="1626128716491" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-297.1920.1040@-1920.-297.1920.1040" timestamp="1623383928013" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624590528087" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1625699487832" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626046006717" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623032669170" />
     <state width="1860" height="565" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-517.1920.1160@0.0.1920.1040" timestamp="1624654588220" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624239579822" />
@@ -413,13 +432,14 @@
     <state width="1877" height="566" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322264947" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160@0.0.1920.1040" timestamp="1623452472969" />
     <state width="1877" height="641" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1624826558925" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623872259477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1625699487832">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626113043903" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1626128716491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-257.1920.1160@0.0.1920.1040" timestamp="1626128716491" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-297.1920.1040@-1920.-297.1920.1040" timestamp="1623383928013" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624590528087" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1625699487832" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626046006717" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623032669171" />
     <state width="1860" height="565" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-517.1920.1160@0.0.1920.1040" timestamp="1624654588221" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624239579822" />
@@ -429,7 +449,7 @@
     <state width="1877" height="566" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322264948" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160@0.0.1920.1040" timestamp="1623452472969" />
     <state width="1877" height="641" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160@1920.0.1920.1160" timestamp="1624826558925" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623872259477" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626113043903" />
     <state width="1877" height="565" key="GridCell.Tab.1.bottom" timestamp="1625699455605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -509,18 +529,19 @@
       <screen x="-1920" y="-367" width="1920" height="1160" />
     </state>
     <state x="-1114" y="129" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624917064905" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625803855356">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625803892965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555943301" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1625781781781" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625803855356" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1624942995569">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625803892965" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1625833631294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623856836602" />
     <state x="-1280" y="17" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624915976930" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1624634245929" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625833631294" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624942995569" />
     <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623005391448">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -560,12 +581,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.java</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Minimum_Number_of_Arrows_to_Burst_Balloons452.java</url>
-          <line>9</line>
+          <line>11</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -602,37 +623,37 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TwoPointer/Trapping_Rain_Water42.java</url>
+          <url>file://$PROJECT_DIR$/src/twoPointer/TrappingRainWater42.java</url>
           <line>17</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with1Characters395.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Longest_Substring_with1Characters395.java</url>
           <line>22</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with1Characters395.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Longest_Substring_with1Characters395.java</url>
           <line>17</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with1Characters395.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Longest_Substring_with1Characters395.java</url>
           <line>18</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Longest_Substring_with1Characters395.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Longest_Substring_with1Characters395.java</url>
           <line>19</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Longest_Repeating_Character_Replacement424.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Longest_Repeating_Character_Replacement424.java</url>
           <line>10</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SlidingWin/Minimum_Window_Substring76.java</url>
+          <url>file://$PROJECT_DIR$/src/slidingWin/Minimum_Window_Substring76.java</url>
           <line>31</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -642,37 +663,37 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/GenerateParenthesis22.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/GenerateParenthesis22.java</url>
           <line>26</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/GenerateParenthesis22.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/GenerateParenthesis22.java</url>
           <line>7</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/CombinationSum39.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum39.java</url>
           <line>20</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/CombinationSum39.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum39.java</url>
           <line>22</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/CombinationSum39.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum39.java</url>
           <line>19</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/CombinationSum39.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum39.java</url>
           <line>21</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BackTracking/Design_Add_and_Search_Word_Data_Structure211.java</url>
+          <url>file://$PROJECT_DIR$/src/backtracking/DesignAddandSearchWordDataStructure211.java</url>
           <line>6</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
@@ -746,6 +767,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DP2/MinimumNumberTapsttoWateraGarden1326.java</url>
+          <line>90</line>
+          <properties class="DP2.MinimumNumberTapsttoWateraGarden1326" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
