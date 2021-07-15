@@ -1,6 +1,6 @@
 package DFS;
 
-public class maxAreaOfIsland {
+public class maxAreaOfIsland695 {
     private int[][] grid;
     public int maxAreaOfIsland(int[][] grid) {
         this.grid = grid;

@@ -1,6 +1,6 @@
 package DFS;
 
-public class numIsland {
+public class numIsland200 {
     private boolean[][] seen;
     public int numIslands(char[][] grid) {
         if (grid.length == 0 || grid[0].length == 0) return 0;

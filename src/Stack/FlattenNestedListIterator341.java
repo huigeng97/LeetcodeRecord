@@ -7,124 +7,180 @@ import java.util.*;
  */
 public class FlattenNestedListIterator341 {
 
-    // The reason that I didn't solve this problem is because I can't handle the which element to store and pick when
-    // iterating, when I call next;
-    //
-
     public class NestedIterator implements Iterator<Integer> {
 
-        Stack<List<NestedInteger>> stack;
-        Stack<Integer> position;
-        public NestedIterator(List<NestedInteger> nestedList) {
 
-            stack = new Stack<List<NestedInteger>>();
-            position = new Stack<Integer>();
-            stack.push(nestedList);
-            position.push(0);
+        // kind of like the tree dfs;
+        // could use the list iterator
+        // or we could store the next idx into the stack;
+        // try to use the iterator;
+
+        Deque<ListIterator<NestedInteger>> stack = new ArrayDeque<>();
+        Integer curr = null;
+        public NestedIterator(List<NestedInteger> nestedList) {
+            // Make an iterator with the input and put it on the stack.
+            // Note that creating a list iterator is an O(1) operation.
+            stack.push(nestedList.listIterator());
         }
 
         @Override
         public Integer next() {
-            if (!hasNext()) {throw new NoSuchElementException();}
-            int currentPosition = position.pop();
-            position.push(currentPosition + 1);
-            return stack.peek().get(currentPosition).getInteger();
+            if (hasNext()) {
+                Integer res = curr;
+                curr = null;
+                return res;
+            } else {
+                return null;
+            }
         }
 
         @Override
         public boolean hasNext() {
-            makeStackTopAnInteger();
-            return !position.isEmpty();
+            setPeeked(); // similar with the same integer at the top; (this is to set the curr to next integer);
+
+            return curr != null;
         }
 
-        private void makeStackTopAnInteger() {
+        private void setPeeked() {
+            if (curr != null) {
+                return;
+            }
+
+            //  to find the next integer;
             while (!stack.isEmpty()) {
-                if (position.peek() >= stack.peek().size()) {
+
+
+                // go the end of the stack;
+                if (!stack.peek().hasNext()) {
                     stack.pop();
-                    position.pop();
                     continue;
                 }
 
-                if (stack.peek().get(position.peek()).isInteger()) {
+                // if the next is not an integer
+                NestedInteger next = stack.peek().next();
+                if (next.isInteger()) {
+                    curr = next.getInteger();
                     break;
+                } else {
+                    stack.push(next.getList().listIterator());
                 }
 
-                stack.add(stack.peek().get(position.peek()).getList());
-                position.add(position.pop()+1);
-                position.add(0);
             }
         }
     }
 
-
-    /////////////////////////////////////////////////////////////////////////////////
-
     public class NestedIterator2 implements Iterator<Integer> {
 
-        // This time, our stack will hold list iterators instead of just lists.
-        private Deque<ListIterator<NestedInteger>> stackOfIterators = new ArrayDeque();
-        private Integer peeked = null;
-
+        private List<Integer> integers = new ArrayList<Integer>();
+        private Integer curr = 0;
         public NestedIterator2(List<NestedInteger> nestedList) {
-            // Make an iterator with the input and put it on the stack.
-            // Note that creating a list iterator is an O(1) operation.
-            stackOfIterators.addFirst(nestedList.listIterator());
+
+            flattenList(nestedList);
         }
 
-        private void setPeeked() {
-
-            // If peeked is already set, there's nothing to do.
-            if (peeked != null) {return;}
-
-            while (!stackOfIterators.isEmpty()) {
-
-                // If the iterator at the top of the stack doesn't have a next,
-                // remove that iterator and continue on.
-                if (!stackOfIterators.peekFirst().hasNext()) {
-                    stackOfIterators.removeFirst();
-                    continue;
+        private void flattenList(List<NestedInteger> nestedList) {
+            for (NestedInteger nestedInteger : nestedList) {
+                if (nestedInteger.isInteger()) {
+                    integers.add(nestedInteger.getInteger());
+                } else {
+                    flattenList(nestedInteger.getList());
                 }
-
-                // Otherwise, we need to check whether that next is a list or
-                // an integer.
-                NestedInteger next = stackOfIterators.peekFirst().next();
-
-                // If it's an integer, set peeked to it and return as we're done.
-                if (next.isInteger()) {
-                    peeked = next.getInteger();
-                    return;
-                }
-
-                // Otherwise, it's a list. Create a new iterator with it, and put
-                // the new iterator on the top of the stack.
-                stackOfIterators.addFirst(next.getList().listIterator());
             }
         }
 
+        @Override
+        public Integer next() {
+            return integers.get(curr++);
+        }
+
+        @Override
+        public boolean hasNext() {
+            return curr < integers.size();
+        }
+    }
+
+
+    public class NestedIterator3 implements Iterator<Integer> {
+
+        private Deque<NestedInteger> stack;
+
+        public NestedIterator3(List<NestedInteger> nestedList) {
+
+            // This constructor allow to let the first item at the top of stack;
+            stack = new ArrayDeque(nestedList);
+        }
 
         @Override
         public Integer next() {
-
-            // As per Java specs, throw an exception if there are no further elements.
-            if (!hasNext()) {throw new NoSuchElementException();}
-
-            // hasNext() called setPeeked(), which ensures peeked has the next integer
-            // in it. We need to clear the peeked field so that the element is returned
-            // again.
-            Integer result = peeked;
-            peeked = null;
-            return result;
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            return stack.pop().getInteger();
         }
 
         @Override
         public boolean hasNext() {
 
-            // Try to set the peeked field. If any integers are remaining, it will
-            // contain the next one to be returned after this call.
-            setPeeked();
+            makeStackTopInteger();
+            return !stack.isEmpty();
+        }
 
-            // There are elements remaining iff peeked contains a value.
+        private void makeStackTopInteger() {
+
+            while (!stack.isEmpty() && !stack.peek().isInteger()) {
+                List<NestedInteger> curr = stack.pop().getList();
+                for (int i = curr.size() - 1; i >= 0; i--) {
+                    stack.push(curr.get(i));
+                }
+            }
+        }
+    }
+
+    public class NestedIterator4 implements Iterator<Integer> {
+
+        Deque<ListIterator<NestedInteger>> stack = new ArrayDeque<>();
+        Integer peeked = null;
+        public NestedIterator4(List<NestedInteger> nestedList) {
+
+            stack.push(nestedList.listIterator());
+        }
+
+        @Override
+        public Integer next() {
+            if (hasNext()) {
+                Integer res = peeked;
+                peeked = null;
+                return res;
+            } else {
+                return null;
+            }
+        }
+
+        @Override
+        public boolean hasNext() {
+
+            setPeekedInteger();
             return peeked != null;
+        }
+
+        private void setPeekedInteger() {
+            if (peeked != null) {
+                return;
+            }
+            while (!stack.isEmpty()) {
+                if (!stack.peek().hasNext()) {
+                    stack.pop();
+                    continue;
+                }
+                NestedInteger next = stack.peek().next();
+
+                if (next.isInteger()) {
+                    peeked = next.getInteger();
+                    return;
+                } else {
+                    stack.push(next.getList().listIterator());
+                }
+            }
         }
     }
 }
