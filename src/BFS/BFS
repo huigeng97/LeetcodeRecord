@@ -1,0 +1,11 @@
+有几种方法去记录queue 中的BFS的level；
+一种是加入sentinel node (null);
+if (queue.poll() == null) 进入一个新的level;
+一种是记录持续每一层的size,一次while走一层；
+while (!queue.isEmpty()) {
+    int size = queue.size();
+    for (int i = 0; i < size; i++) {
+         // do something ...;
+    }
+    depth++;
+}

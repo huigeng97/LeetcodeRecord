@@ -1,6 +1,9 @@
 // Initialization of a set;
 Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));
 
+// Initialization of a List; (不知道是什么List)
+//  List res = Arrays.asList(i,j);
+
 
 // Think about the corner case before the test;
 // what if stack.pop() == null;
@@ -37,3 +40,4 @@ helper3(Node head) {
    head.val = 2;
 }
 head仍然指向 node 3;但是head.val变成了2;
+

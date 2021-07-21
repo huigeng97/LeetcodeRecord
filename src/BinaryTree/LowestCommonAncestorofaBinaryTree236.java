@@ -3,7 +3,7 @@ package BinaryTree;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Lowest_Common_Ancestor_of_a_Binary_Tree236 {
+public class LowestCommonAncestorofaBinaryTree236 {
     TreeNode res;
     boolean seen;
     // This problem should be use the recursive call on the Postorder traversal;
@@ -39,13 +39,15 @@ public class Lowest_Common_Ancestor_of_a_Binary_Tree236 {
         return res;
     }
 
+    boolean seen2 = false;
     private int findLCA(TreeNode node, Set<Integer> nodeset, int count) {
-        if (node == null) return 0;
+        if (node == null || seen2) return 0;
         count += findLCA(node.left,nodeset,0);
         count += findLCA(node.right,nodeset,0);
         if (nodeset.contains(node.val)) count++;
         if (count == nodeset.size() && res == null) {
             res = node;
+            seen2 = true;
         }
         return count;
     }
