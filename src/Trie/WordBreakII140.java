@@ -14,7 +14,6 @@ public class WordBreakII140 {
     class TrieNode {
         Map<Character, TrieNode> children;
         String isWord;
-
         TrieNode() {
             children = new HashMap<Character, TrieNode>();
         }

@@ -4,6 +4,7 @@ Set<String> skip = new HashSet<>(Arrays.asList("..",".",""));
 // Initialization of a List; (不知道是什么List)
 //  List res = Arrays.asList(i,j);
 
+// Array Copy : System.arraycopy(oldArray, old start, newArray, new start, copyofLength);
 
 // Think about the corner case before the test;
 // what if stack.pop() == null;

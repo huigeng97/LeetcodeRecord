@@ -6,3 +6,6 @@ Stack               FlattenNestedListIterator341  BasicCalculatorII227
 BFS                 426
 DP                  1235  StockI-IV121/122/123/188 32
 DFS                 114
+Ksum                18
+KMP                 28
+TwoPointer          30
