@@ -1,9 +1,6 @@
 package A.DailyPractice;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Review0725 {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -25,7 +22,16 @@ public class Review0725 {
         return res;
     }
 
-    private boolean helper(String s, int start, HashMap<String, Integer> map, int length, int count) {
+  /**
+   * This helper function will help find if the current start point will satisfy the case;
+   * @param s      the string
+   * @param start  the start of curr function
+   * @param map    the map to memorize the current number of words
+   * @param length the length for each word
+   * @param count  the number of total words
+   * @return       true if we find one solution starting at start;
+   */
+  private boolean helper(String s, int start, HashMap<String, Integer> map, int length, int count) {
 
         if (count == 0) {
             return true;
@@ -77,5 +83,58 @@ public class Review0725 {
     }
 
     // 其实这道题是一道双指针题；
+
+    public String countAndSay(int n) {
+        String res = "1";
+        while (n > 1) {
+            n--;
+            StringBuilder sb = new StringBuilder();
+//            Stack<Pair> stack = new Stack<>();
+//            for (int i = 0; i < res.length(); i++) {
+//                char curr = res.charAt(i);
+//                if (!stack.isEmpty() && stack.peek().ch == curr) {
+//                    stack.peek().count++;
+//                } else {
+//                    stack.push(new Pair(curr,1));
+//                }
+//            }
+//
+//            for (Pair pair : stack) {
+//                sb.append(pair.count);
+//                sb.append(pair.ch);
+//            }
+            int count = 1;
+            char ch = res.charAt(0);
+            for (int i = 1; i < res.length(); i++) {
+                if (res.charAt(i) != ch) {
+                    sb.append(count);
+                    sb.append(ch);
+                    count = 1;
+                    ch = res.charAt(i);
+                } else {
+                    count++;
+                }
+            }
+            sb.append(count);
+            sb.append(ch);
+            res = new String(sb);
+        }
+        return res;
+    }
+
+    class Pair {
+        char ch;
+        int count;
+
+        public Pair(char ch, int count) {
+            this.ch = ch;
+            this.count = count;
+        }
+    }
+
+    public boolean isMatch(String s, String p) {
+
+    }
+
 
 }

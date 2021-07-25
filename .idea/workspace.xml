@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784874a1-b30e-42db-98b9-e53ae6108db7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0721.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0722.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/ImplementstrStr28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/binary/SearchInsertPostion35.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Binary/BinarySearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Binary/BinarySearch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/Trick" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/Trick" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyPractice/WeeklyContest0717.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyPractice/WeeklyContest0717.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/WordBreakII140.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/WordBreakII140.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary/BinarySearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/BinarySearch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twoPointer/RemoveDuplicatesfromSortedArray80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twoPointer/RemoveDuplicatesfromSortedArray80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A/DailyPractice/Review0725.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0725.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +190,7 @@
       <workItem from="1625833534481" duration="91804000" />
       <workItem from="1626722658029" duration="14963000" />
       <workItem from="1626806107935" duration="24838000" />
-      <workItem from="1627171718526" duration="10090000" />
+      <workItem from="1627171718526" duration="12072000" />
     </task>
     <task id="LOCAL-00001" summary="SecondTrial">
       <created>1624368268017</created>
@@ -254,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626840167945</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0725 Review">
+      <created>1627239369682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627239369683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +261,8 @@
     <MESSAGE value="0713 FinishedDP" />
     <MESSAGE value="0714 DFS" />
     <MESSAGE value="0720 Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="0720 Review" />
+    <MESSAGE value="0725 Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="0725 Review" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" width="816" height="730" key="#Intentions" timestamp="1623704450039">
@@ -292,11 +287,11 @@
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625629229907" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624381774570" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322261798" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1627184326978">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1627239794465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624584084828" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626031754580" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627239794465" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-378.1920.1040@0.0.1920.1040" timestamp="1623080719447" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624222351377" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625520316463" />
@@ -319,11 +314,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623370507503" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1626840166385">
+    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1627239368669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555934317" />
-    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626209192784" />
+    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627239368669" />
     <state x="2430" y="-120" key="CommitChangelistDialog2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309495728" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840166385" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624383425754" />
@@ -487,11 +482,11 @@
       <screen x="-1920" y="-367" width="1920" height="1160" />
     </state>
     <state x="-1114" y="129" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624917064905" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1626840172176">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627239374822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555943301" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626209201953" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627239374822" />
     <state x="2472" y="37" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309503238" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840172176" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1626806107547">
