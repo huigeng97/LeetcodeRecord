@@ -43,10 +43,10 @@ public class Review0725 {
                 if (map.get(temp) > 0) {
                     map.put(temp, map.get(temp) - 1);
                     if (helper(s, start + length, map, length, count - 1)) {
-                        map.put(temp, map.get(temp) +1);
+                        map.put(temp, map.get(temp) + 1);
                         return true;
                     }
-                    map.put(temp, map.get(temp) +1);
+                    map.put(temp, map.get(temp) + 1);
                 }
             }
         }
@@ -132,9 +132,58 @@ public class Review0725 {
         }
     }
 
-    public boolean isMatch(String s, String p) {
+  /**
+   * @param s the word
+   * @param p the pattern
+   * @return true if s matches the parthen p; false otherwise
+   */
+  public boolean isMatch(String s, String p) {
 
+      // use the dp[i][j] to memorize, if s[0,i] matches p[0,j];
+      boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
+      dp[0][0] = true;
+      for (int i = 0; i < p.length(); i++) {
+          if (p.charAt(i) == '*') {
+              dp[0][i + 1] = dp[0][i];
+          }
+      }
+
+      // update the table dp[i][j];
+      for (int i = 0; i < s.length(); i++) {
+          for (int j = 0; j < p.length(); j++) {
+              if (p.charAt(j) == '?' || p.charAt(j) == s.charAt(i)) {
+                  dp[i + 1][j + 1] = dp[i][j];
+              } else if (p.charAt(j) == '*') {
+                  // three case;
+                  // * match zero letter dp[i + 1][j + 1] = dp[i + 1][j];
+                  // * match one letter dp[i + 1][j + 1] = dp[i][j];
+                  // * match multiple letter dp[i + 1][j + 1] = dp[i][j + 1];
+                  dp[i + 1][j + 1] = dp[i + 1][j] || dp[i][j] || dp[i][j + 1];
+              }
+          }
+      }
+      // System.out.println(dp[0][0]);
+      // System.out.println(dp[1][1]);
+      // System.out.println(dp[2][2]);
+      return dp[s.length()][p.length()];
+  }
+
+    public int jump(int[] nums) {
+
+        int dis = nums.length - 1;
+        int now = 0;
+        int far = 0;
+        int jump = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            far = Math.max(far, i + nums[i]);
+            if (i >= now) {
+                jump += 1;
+                now = far;
+            }
+            if (now >= dis) {
+                return jump;
+            }
+        }
+        return jump;
     }
-
-
 }
