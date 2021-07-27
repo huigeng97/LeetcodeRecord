@@ -25,9 +25,11 @@ public class RotateArray {
 
     public void rotate2(int[] nums, int k) {
 
+        return;
     }
 
-    public void rotate2(int[] nums, int k) {
+    public void rotate23(int[] nums, int k) {
 
+        return;
     }
 }
