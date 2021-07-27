@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784874a1-b30e-42db-98b9-e53ae6108db7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0726.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/WildcardMatching44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A/DailyChecking/Intellij ShortCut" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0727.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyPractice/Review0725.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0725.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary/BinarySearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/BinarySearch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A/DailyPractice/Review0726.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0726.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +193,9 @@
       <workItem from="1625833534481" duration="91804000" />
       <workItem from="1626722658029" duration="14963000" />
       <workItem from="1626806107935" duration="24838000" />
-      <workItem from="1627171718526" duration="25860000" />
+      <workItem from="1627171718526" duration="29475000" />
+      <workItem from="1627333898073" duration="1189000" />
+      <workItem from="1627352712385" duration="4448000" />
     </task>
     <task id="LOCAL-00001" summary="SecondTrial">
       <created>1624368268017</created>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627241355617</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Try write some doc 0726">
+      <created>1627322486725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627322486725</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +282,8 @@
     <MESSAGE value="0720 Review" />
     <MESSAGE value="0725 Review" />
     <MESSAGE value="Try write some doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try write some doc" />
+    <MESSAGE value="Try write some doc 0726" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try write some doc 0726" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" width="816" height="730" key="#Intentions" timestamp="1623704450039">
@@ -291,7 +299,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1622749339958" />
-    <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626375327197">
+    <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627353767371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624367934685" />
@@ -300,6 +308,7 @@
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625629229907" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624381774570" />
     <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1624322261798" />
+    <state x="697" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.-414.1920.1040@0.0.1920.1040" timestamp="1627353767371" />
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1627239794465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,11 +336,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623370507503" />
-    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1627241354729">
+    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1627322485718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555934317" />
-    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627241354729" />
+    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627322485718" />
     <state x="2430" y="-120" key="CommitChangelistDialog2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309495728" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840166385" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624383425754" />
@@ -495,19 +504,19 @@
       <screen x="-1920" y="-367" width="1920" height="1160" />
     </state>
     <state x="-1114" y="129" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624917064905" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627241360949">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627322501233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555943301" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627241360949" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627322501233" />
     <state x="2472" y="37" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309503238" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840172176" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1626806107547">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1627333897331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623856836602" />
     <state x="-1280" y="17" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624915976930" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1626806107547" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627333897331" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625833631294" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624942995569" />
     <state x="658" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623005391448">
@@ -531,7 +540,7 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627315502704" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1160@0.0.1920.1040" timestamp="1624226127735" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627060380755">
+    <state x="859" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1627364839350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624336070438" />
@@ -541,6 +550,7 @@
     <state x="2543" y="6" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626294785076" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625629506810" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624494758643" />
+    <state x="859" y="275" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-414.1920.1040@0.0.1920.1040" timestamp="1627364839350" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1160@0.0.1920.1040" timestamp="1623451694202" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624942260468" />
   </component>
