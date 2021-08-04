@@ -3,7 +3,9 @@ BT / DP BFS(DFS)
 一道题：如果其解空间是 exponential，则需要用 bt;
 如果求其最优解/或是否有解 ，可以用dp优化，
 
-DFS类似bt,但是关注点在searching, （depends on how many edges , 其实也是(psuedo) exponential on nodes）;
+DFS类似bt,但是关注点在searching,
+DFS强制要求不能重复利用同一个node，但可以反复从左到右searching, （复杂度 depends on how many edges , 其实也是(psuedo) exponential on nodes）
+BT一般是从左到右去走;
 
 
 DP / Greedy;

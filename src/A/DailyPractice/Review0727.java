@@ -1,9 +1,9 @@
 package A.DailyPractice;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
-import java.util.Stack;
+import BinaryTree.TreeNode;
+
+import java.util.*;
+import LinkedList.*;
 
 public class Review0727 {
     public boolean isInterleave2(String s1, String s2, String s3) {
@@ -76,12 +76,6 @@ public class Review0727 {
     }
 
 
-  public static void main(String[] args) {
-
-    //
-      Review0727 test = new Review0727();
-      System.out.println(test.isInterleave("aabd","abdc","aabdabcd"));
-  }
 
   // four ops: 1 insert; 2 delete 3 replace 4 gap;
     public int minDistance(String word1, String word2) {
@@ -133,4 +127,270 @@ public class Review0727 {
         return newPath;
     }
 
+    public void recoverTree(TreeNode root) {
+
+        // in order travese;
+        // get the series and once the next is larger than pre;
+        // we get the first node;
+        TreeNode first = null;
+        TreeNode second = null;
+        // DFS with the stack;
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        TreeNode node = root;
+        while (node != null) {
+            stack.push(node);
+            node = node.left;
+        }
+        TreeNode prev = null;
+        while (!stack.isEmpty()) {
+            TreeNode curr = stack.poll();
+
+            // Do something:
+
+            if (prev != null) {
+                if (prev.val > curr.val) {
+                    if (first == null) {
+                        first = prev;
+                        // System.out.println("find first" + first.val);
+                    }
+                    second = curr;
+                    // System.out.println("find second" + curr.val);
+                }
+            }
+            prev = curr;
+
+            if (curr.right != null) {
+                curr = curr.right;
+                while (curr != null) {
+                    stack.push(curr);
+                    curr = curr.left;
+                }
+            }
+        }
+        int temp = first.val;
+        first.val = second.val;
+        second.val = temp;
+    }
+
+
+    public int largestRectangleArea(int[] heights) {
+
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(-1);
+        int max = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (stack.peek() != -1 && heights[i] < heights[stack.peek()]) {
+                int temp = stack.poll();
+                max = Math.max(max, heights[temp] * (i - stack.peek() - 1));
+            }
+            stack.push(i);
+        }
+
+        while (stack.peek() != -1) {
+            int temp = stack.poll();
+            max = Math.max(max, heights[temp] * (heights.length - stack.peek() - 1));
+        }
+        return max;
+    }
+
+    public void setZeroes(int[][] matrix) {
+
+        boolean firstCol = false;
+        for (int i = 0; i < matrix.length; i++) {
+            if (matrix[i][0] == 0) {
+                firstCol = true;
+            }
+            for (int j = 1; j < matrix[0].length; j++) {
+                if (matrix[i][j] == 0) {
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
+                }
+            }
+        }
+        for (int j = 1; j < matrix[0].length; j++) {
+            for (int i = 1; i < matrix.length; i++) {
+                if (matrix[i][0] == 0 || matrix[0][j] == 0) {
+                    matrix[i][j] = 0;
+                }
+            }
+
+        }
+
+        if (firstCol) {
+            for (int i = 0; i < matrix.length; i++) {
+                matrix[i][0] = 0;
+            }
+        }
+    }
+
+    public ListNode partition(ListNode head, int x) {
+        ListNode front = head;
+        ListNode prev = head;
+        ListNode dummy = new ListNode();
+        ListNode end = dummy;
+        end.next = head;
+        while (front != null) {
+            if (front.val < x ) {
+                // move the front to the end;
+                if (front == end.next) {
+                    prev = front;
+                    front = front.next;
+                    end = end.next;
+                } else {
+                    ListNode move = front;
+                    front = front.next;
+                    prev.next = front;
+                    // connect the prev to the front.next;;
+                    ListNode temp = end.next;
+                    end.next = move;
+                    move.next = temp;
+                    end = end.next;
+                }
+            } else {
+                prev = front;
+                front = front.next;
+            }
+        }
+        return  dummy.next;
+    }
+
+    public int maximalRectangle(char[][] matrix) {
+
+        int max = 0;
+        int[] heights = new int[matrix[0].length];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                heights[j] = matrix[i][j] == '1' ? heights[j] + 1 : 0;
+            }
+            max = Math.max(max, findMaxRectangle(heights));
+        }
+        return max;
+    }
+
+    private int findMaxRectangle(int[] heights) {
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(-1);
+        int max = 0;
+        for (int i = 0; i < heights.length; i++) {
+            while (stack.peek() != -1 && heights[i] < heights[stack.peek()]) {
+                int temp = stack.poll();
+                max = Math.max(max, heights[temp] * (i - stack.peek() - 1));
+            }
+            stack.push(i);
+        }
+
+        while (stack.peek() != -1) {
+            int temp = stack.poll();
+            max = Math.max(max, heights[temp] * (heights.length - stack.peek() - 1));
+        }
+        return max;
+    }
+
+    public boolean isNumber(String s) {
+        // start with a sign of (+ or -);
+        // then follow by a decimal number ;
+        // then could be follow by a "e or e";
+        // then could be follow by a integer;
+        String[] numbers = s.split("e|E");
+        System.out.println(numbers.length);
+        if (numbers.length > 2) {
+            return false;
+        } else {
+            if (!isDecimal(numbers[0])) {
+                return false;
+            }
+            if (numbers.length == 2) {
+                if (!isInteger(numbers[1])) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private boolean isDecimal(String number) {
+        String[] numbers = number.split(".");
+        if (numbers.length > 2) {
+            return false;
+        } else {
+            if (!isInteger(numbers[0])) {
+                return false;
+            }
+            if (numbers.length == 2) {
+                for (char ch : numbers[1].toCharArray()) {
+                    if (!Character.isDigit(ch)) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    private boolean isInteger(String number) {
+        if (number.charAt(0) == '+' || number.charAt(0) == '-') {
+            number = number.substring(1);
+        }
+        for (char ch : number.toCharArray()) {
+            if (!Character.isDigit(ch)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    public boolean isNumber2(String s)
+    {
+        if (s.equals("")) {
+            return false;
+        }
+
+        int countE = 0, posE = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (s.charAt(i) == 'e' || s.charAt(i) == 'E')
+            {
+                countE++;
+                posE = i;
+            }
+        }
+        if (countE > 1) {
+            return false;
+        }
+        if (countE == 0) {
+            return isOK(s, 1);
+        }
+        return isOK(s.substring(0, posE), 1) && isOK(s.substring(posE + 1), 0);
+    }
+
+    public boolean isOK(String s, int k)
+    {
+        for (int i = 0; i < s.length(); i++)
+        {
+            if ((s.charAt(i) == '+' || s.charAt(i) == '-') && i != 0) {
+                return false;
+            }
+        }
+        if (s.equals("") || s.equals(".")) return false;
+        if (s.charAt(0) == '+' || s.charAt(0) == '-') {
+            return isOK(s.substring(1), k);
+        }
+        int countDot = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (s.charAt(i) == '.') {
+                countDot++;
+            } else if (!Character.isDigit(s.charAt(i))) {
+                return false;
+            }
+        }
+        return countDot <= k;
+    }
+
+  public static void main(String[] args) {
+
+    String s = "e03";
+        System.out.println(s.split("e|E").length);
+  }
 }

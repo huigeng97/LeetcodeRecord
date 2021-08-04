@@ -5,3 +5,7 @@ BFS we could use Recursive / Iterative (queue);
 DFS we could use Recursive / Iterative (stack) / Morris
 
 Check 98 to see some example
+
+无论是BFS 还是DFS 都可以做level by level 的search,
+只需要记录一下level即可；
+相比较于BFS， DFS更适合recursive;
