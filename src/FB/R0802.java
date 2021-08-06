@@ -420,6 +420,88 @@ public class R0802 {
         return String.valueOf(res);
     }
 
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
+    }
+    public Node copyRandomList2(Node head) {
+
+        Node dummy = new Node(0);
+        Node copy = dummy;
+        Node curr = head;
+        Map<Node, Node> nodeMap = new HashMap<>();
+        while (curr != null) {
+            Node temp = new Node(curr.val);
+            copy.next = temp;
+            nodeMap.put(curr, temp);
+            curr = curr.next;
+            copy = copy.next;
+        }
+        curr = head;
+        copy = dummy.next;
+        while (curr != null) {
+            if (curr.random != null) {
+                copy.random = nodeMap.get(curr.random);
+            }
+            curr = curr.next;
+            copy = copy.next;
+        }
+
+        return dummy.next;
+    }
+
+    public Node copyRandomList(Node head) {
+        if (head == null) {
+            return null;
+        }
+
+        // Creating a new weaved list of original and copied nodes.
+        Node ptr = head;
+
+        while (ptr != null) {
+            Node temp = new Node(ptr.val);
+            temp.next = ptr.next;
+            ptr.next = temp;
+            ptr = ptr.next.next;
+        }
+
+        ptr = head;
+        while (ptr != null) {
+            ptr.next.random = ptr.random == null ? null : ptr.random.next;
+            ptr = ptr.next.next;
+        }
+
+        // now we need to unweave the link;
+        ptr = head;
+        Node newPtr = ptr.next;
+        Node newHead = newPtr;
+        while (ptr != null) {
+            ptr.next = ptr.next.next;
+            newPtr.next = (ptr.next == null) ? null : ptr.next.next;
+            ptr = ptr.next;
+            newPtr = newPtr.next;
+        }
+        return newHead;
+    }
+
+
+    public String multiply2(String num1, String num2) {
+
+        int res = 0;
+        for (int i = num1.length() - 1; i >= 0; i--) {
+            for (int j = num2.length() - 1; j >= 0; j--) {
+
+            }
+        }
+        return String.valueOf(res);
+    }
 
     public static void main(String[] args) {
     //

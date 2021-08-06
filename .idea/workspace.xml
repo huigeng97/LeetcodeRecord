@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784874a1-b30e-42db-98b9-e53ae6108db7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0728.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0729.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0731.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FB/R0802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FB/R0805.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/Binary/BinarySearch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode/Binary/BinarySearch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/DailyPlan.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/VeryGoodQuestion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyChecking/dp-greedy-bt" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyChecking/dp-greedy-bt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A/DailyPractice/Review0727.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A/DailyPractice/Review0727.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Binary Tree Traversal" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Binary Tree Traversal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FB/R0802.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FB/R0802.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +198,10 @@
       <workItem from="1627171718526" duration="29475000" />
       <workItem from="1627333898073" duration="1189000" />
       <workItem from="1627352712385" duration="39459000" />
-      <workItem from="1627578234943" duration="38137000" />
+      <workItem from="1627578234943" duration="40842000" />
+      <workItem from="1628186253500" duration="6288000" />
+      <workItem from="1628221485978" duration="594000" />
+      <workItem from="1628268461588" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="SecondTrial">
       <created>1624368268017</created>
@@ -292,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627406667248</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="0803">
+      <created>1628045138520</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628045138520</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +311,8 @@
     <MESSAGE value="Try write some doc" />
     <MESSAGE value="Try write some doc 0726" />
     <MESSAGE value="0727" />
-    <option name="LAST_COMMIT_MESSAGE" value="0727" />
+    <MESSAGE value="0803" />
+    <option name="LAST_COMMIT_MESSAGE" value="0803" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Auto_Import" timestamp="1627420401076">
@@ -379,13 +382,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1183" y="414" key="#xdebugger.evaluate/0.0.1920.1040/1920.-414.1920.1040@0.0.1920.1040" timestamp="1627399683929" />
-    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1627406666237">
+    <state x="510" y="112" key="CommitChangelistDialog2" timestamp="1628045136718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555934317" />
     <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627322485718" />
     <state x="2430" y="-120" key="CommitChangelistDialog2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309495728" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840166385" />
+    <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-310.1920.1040@0.0.1920.1040" timestamp="1628045136718" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-358.1920.1160@0.0.1920.1040" timestamp="1624383425754" />
     <state x="510" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.-414.1920.1040@0.0.1920.1040" timestamp="1627406666237" />
     <state x="-1185" y="-36" key="FileChooserDialogImpl" timestamp="1623377581373">
@@ -572,21 +576,23 @@
       <screen x="-1920" y="-367" width="1920" height="1160" />
     </state>
     <state x="-1114" y="129" key="VCS.ChangelistChooser/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624917064905" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1627406673566">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628045145335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1624555943301" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627322501233" />
     <state x="2472" y="37" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-245.1920.1160@1920.-245.1920.1160" timestamp="1626309503238" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1626840172176" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-310.1920.1040@0.0.1920.1040" timestamp="1628045145335" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-414.1920.1040@0.0.1920.1040" timestamp="1627406673566" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1627333897331">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1628282451941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-297.1920.1040@0.0.1920.1040" timestamp="1623856836602" />
     <state x="-1280" y="17" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@-1920.-367.1920.1160" timestamp="1624915976930" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-367.1920.1160@0.0.1920.1040" timestamp="1627333897331" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-277.1920.1040@0.0.1920.1040" timestamp="1625833631294" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-401.1920.1160@0.0.1920.1040" timestamp="1628282451940" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624942995569" />
     <state x="2578" y="0" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1627763878899">
       <screen x="1920" y="-414" width="1920" height="1040" />
